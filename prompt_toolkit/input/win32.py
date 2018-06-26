@@ -141,6 +141,32 @@ class ConsoleInputReader:
         b"\x18": Keys.ControlX,  # Control-X
         b"\x19": Keys.ControlY,  # Control-Y (25)
         b"\x1a": Keys.ControlZ,  # Control-Z
+        b"\x1ba": Keys.MetaA,  # Meta(Alt)-A
+        b"\x1bb": Keys.MetaB,  # Meta(Alt)-B
+        b"\x1bc": Keys.MetaC,  # Meta(Alt)-C
+        b"\x1bd": Keys.MetaD,  # Meta(Alt)-D
+        b"\x1be": Keys.MetaE,  # Meta(Alt)-E
+        b"\x1bf": Keys.MetaF,  # Meta(Alt)-F
+        b"\x1bg": Keys.MetaG,  # Meta(Alt)-G
+        b"\x1bh": Keys.MetaH,  # Meta(Alt)-H
+        b"\x1bi": Keys.MetaI,  # Meta(Alt)-I
+        b"\x1bj": Keys.MetaJ,  # Meta(Alt)-J
+        b"\x1bk": Keys.MetaK,  # Meta(Alt)-K
+        b"\x1bl": Keys.MetaL,  # Meta(Alt)-L
+        b"\x1bm": Keys.MetaM,  # Meta(Alt)-M
+        b"\x1bn": Keys.MetaN,  # Meta(Alt)-N
+        b"\x1bo": Keys.MetaO,  # Meta(Alt)-O
+        b"\x1bp": Keys.MetaP,  # Meta(Alt)-P
+        b"\x1bq": Keys.MetaQ,  # Meta(Alt)-Q
+        b"\x1br": Keys.MetaR,  # Meta(Alt)-R
+        b"\x1bs": Keys.MetaS,  # Meta(Alt)-S
+        b"\x1bt": Keys.MetaT,  # Meta(Alt)-T
+        b"\x1bu": Keys.MetaU,  # Meta(Alt)-U
+        b"\x1bv": Keys.MetaV,  # Meta(Alt)-V
+        b"\x1bw": Keys.MetaW,  # Meta(Alt)-W
+        b"\x1bx": Keys.MetaX,  # Meta(Alt)-X
+        b"\x1by": Keys.MetaY,  # Meta(Alt)-Y
+        b"\x1bz": Keys.MetaZ,  # Meta(Alt)-Z
         b"\x1c": Keys.ControlBackslash,  # Both Control-\ and Ctrl-|
         b"\x1d": Keys.ControlSquareClose,  # Control-]
         b"\x1e": Keys.ControlCircumflex,  # Control-^

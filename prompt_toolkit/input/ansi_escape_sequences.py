@@ -49,6 +49,32 @@ ANSI_SEQUENCES: Dict[str, Union[Keys, Tuple[Keys, ...]]] = {
     "\x18": Keys.ControlX,  # Control-X
     "\x19": Keys.ControlY,  # Control-Y (25)
     "\x1a": Keys.ControlZ,  # Control-Z
+    "\x1ba": Keys.MetaA,
+    "\x1bb": Keys.MetaB,
+    "\x1bc": Keys.MetaC,
+    "\x1bd": Keys.MetaD,
+    "\x1be": Keys.MetaE,
+    "\x1bf": Keys.MetaF,
+    "\x1bg": Keys.MetaG,
+    "\x1bh": Keys.MetaH,
+    "\x1bi": Keys.MetaI,
+    "\x1bj": Keys.MetaJ,
+    "\x1bk": Keys.MetaK,
+    "\x1bl": Keys.MetaL,
+    "\x1bm": Keys.MetaM,
+    "\x1bn": Keys.MetaN,
+    "\x1bo": Keys.MetaO,
+    "\x1bp": Keys.MetaP,
+    "\x1bq": Keys.MetaQ,
+    "\x1br": Keys.MetaR,
+    "\x1bs": Keys.MetaS,
+    "\x1bt": Keys.MetaT,
+    "\x1bu": Keys.MetaU,
+    "\x1bv": Keys.MetaV,
+    "\x1bw": Keys.MetaW,
+    "\x1bx": Keys.MetaX,
+    "\x1by": Keys.MetaY,
+    "\x1bz": Keys.MetaZ,
     "\x1b": Keys.Escape,  # Also Control-[
     "\x9b": Keys.ShiftEscape,
     "\x1c": Keys.ControlBackslash,  # Both Control-\ (also Ctrl-| )
