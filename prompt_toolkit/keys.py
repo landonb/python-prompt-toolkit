@@ -51,6 +51,11 @@ class Keys(object):
     ControlUp          = 'c-up'
     ControlDown        = 'c-down'
 
+    ControlShiftLeft   = 'c-s-left'
+    ControlShiftRight  = 'c-s-right'
+    ControlShiftUp     = 'c-s-up'
+    ControlShiftDown   = 'c-s-down'
+
     Up          = 'up'
     Down        = 'down'
     Right       = 'right'

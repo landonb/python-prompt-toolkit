@@ -125,6 +125,11 @@ ANSI_SEQUENCES = {
     '\x1b[1;5C': Keys.ControlRight,  # Cursor Mode
     '\x1b[1;5D': Keys.ControlLeft,   # Cursor Mode
 
+    '\x1b[1;6A': Keys.ControlShiftUp,
+    '\x1b[1;6B': Keys.ControlShiftDown,
+    '\x1b[1;6C': Keys.ControlShiftRight,
+    '\x1b[1;6D': Keys.ControlShiftLeft,
+
     '\x1b[1;2A': Keys.ShiftUp,
     '\x1b[1;2B': Keys.ShiftDown,
     '\x1b[1;2C': Keys.ShiftRight,

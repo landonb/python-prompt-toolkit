@@ -98,6 +98,10 @@ def load_basic_bindings():
     @handle('c-right')
     @handle('c-up')
     @handle('c-down')
+    @handle('c-s-left')
+    @handle('c-s-right')
+    @handle('c-s-up')
+    @handle('c-s-down')
     @handle('insert')
     @handle(Keys.Ignore)
     def _(event):

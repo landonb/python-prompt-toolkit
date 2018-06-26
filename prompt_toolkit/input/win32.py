@@ -324,17 +324,30 @@ class ConsoleInputReader(object):
         # Correctly handle Control-Arrow keys.
         if (ev.ControlKeyState & self.LEFT_CTRL_PRESSED or
                 ev.ControlKeyState & self.RIGHT_CTRL_PRESSED) and result:
-            if result.key == Keys.Left:
-                result.key = Keys.ControlLeft
+            if ev.ControlKeyState & self.SHIFT_PRESSED and result:
+                if result.key == Keys.Left:
+                    result.key = Keys.ControlShiftLeft
 
-            if result.key == Keys.Right:
-                result.key = Keys.ControlRight
+                if result.key == Keys.Right:
+                    result.key = Keys.ControlShiftRight
 
-            if result.key == Keys.Up:
-                result.key = Keys.ControlUp
+                if result.key == Keys.Up:
+                    result.key = Keys.ControlShiftUp
 
-            if result.key == Keys.Down:
-                result.key = Keys.ControlDown
+                if result.key == Keys.Down:
+                    result.key = Keys.ControlShiftDown
+            else:
+                if result.key == Keys.Left:
+                    result.key = Keys.ControlLeft
+
+                if result.key == Keys.Right:
+                    result.key = Keys.ControlRight
+
+                if result.key == Keys.Up:
+                    result.key = Keys.ControlUp
+
+                if result.key == Keys.Down:
+                    result.key = Keys.ControlDown
 
         # Turn 'Tab' into 'BackTab' when shift was pressed.
         if ev.ControlKeyState & self.SHIFT_PRESSED and result:
