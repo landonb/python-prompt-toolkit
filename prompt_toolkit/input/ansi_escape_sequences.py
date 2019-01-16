@@ -49,6 +49,7 @@ ANSI_SEQUENCES: Dict[str, Union[Keys, Tuple[Keys, ...]]] = {
     "\x18": Keys.ControlX,  # Control-X
     "\x19": Keys.ControlY,  # Control-Y (25)
     "\x1a": Keys.ControlZ,  # Control-Z
+    # Control a-z.
     "\x1ba": Keys.MetaA,
     "\x1bb": Keys.MetaB,
     "\x1bc": Keys.MetaC,
@@ -75,6 +76,45 @@ ANSI_SEQUENCES: Dict[str, Union[Keys, Tuple[Keys, ...]]] = {
     "\x1bx": Keys.MetaX,
     "\x1by": Keys.MetaY,
     "\x1bz": Keys.MetaZ,
+    # Control 1-0.
+    "\x1b1": Keys.Meta1,
+    "\x1b2": Keys.Meta2,
+    "\x1b3": Keys.Meta3,
+    "\x1b4": Keys.Meta4,
+    "\x1b5": Keys.Meta5,
+    "\x1b6": Keys.Meta6,
+    "\x1b7": Keys.Meta7,
+    "\x1b8": Keys.Meta8,
+    "\x1b9": Keys.Meta9,
+    "\x1b0": Keys.Meta0,
+    "\x1b-": Keys.MetaMinus,
+    "\x1b=": Keys.MetaEquals,
+    # Keys in shift position of number keys (on US English keyboard):
+    "\x1b!": Keys.MetaExclamation,
+    "\x1b@": Keys.MetaAt,
+    "\x1b#": Keys.MetaPound,
+    "\x1b$": Keys.MetaDollar,
+    "\x1b%": Keys.MetaPercent,
+    "\x1b^": Keys.MetaCaret,
+    "\x1b&": Keys.MetaAmpersand,
+    "\x1b*": Keys.MetaAsterisk,
+    "\x1b(": Keys.MetaLeftParenthesis,
+    "\x1b)": Keys.MetaRightParenthesis,
+    "\x1b_": Keys.MetaUnderscore,
+    "\x1b+": Keys.MetaPlus,
+    # Same as last group, but with a shift:
+    "\x1b!": Keys.MetaShift1,
+    "\x1b@": Keys.MetaShift2,
+    "\x1b#": Keys.MetaShift3,
+    "\x1b$": Keys.MetaShift4,
+    "\x1b%": Keys.MetaShift5,
+    "\x1b^": Keys.MetaShift6,
+    "\x1b&": Keys.MetaShift7,
+    "\x1b*": Keys.MetaShift8,
+    "\x1b(": Keys.MetaShift9,
+    "\x1b)": Keys.MetaShift0,
+    "\x1b_": Keys.MetaShiftMinus,
+    "\x1b+": Keys.MetaShiftEquals,
     "\x1b": Keys.Escape,  # Also Control-[
     "\x9b": Keys.ShiftEscape,
     "\x1c": Keys.ControlBackslash,  # Both Control-\ (also Ctrl-| )
