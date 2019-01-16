@@ -68,6 +68,45 @@ ANSI_SEQUENCES = {
     '\x1by': Keys.MetaY,
     '\x1bz': Keys.MetaZ,
 
+    '\x1b1': Keys.Meta1,
+    '\x1b2': Keys.Meta2,
+    '\x1b3': Keys.Meta3,
+    '\x1b4': Keys.Meta4,
+    '\x1b5': Keys.Meta5,
+    '\x1b6': Keys.Meta6,
+    '\x1b7': Keys.Meta7,
+    '\x1b8': Keys.Meta8,
+    '\x1b9': Keys.Meta9,
+    '\x1b0': Keys.Meta0,
+    '\x1b-': Keys.MetaMinus,
+    '\x1b=': Keys.MetaEquals,
+    # Keys in shift position of number keys (on US English keyboard):
+    '\x1b!': Keys.MetaExclamation,
+    '\x1b@': Keys.MetaAt,
+    '\x1b#': Keys.MetaPound,
+    '\x1b$': Keys.MetaDollar,
+    '\x1b%': Keys.MetaPercent,
+    '\x1b^': Keys.MetaCaret,
+    '\x1b&': Keys.MetaAmpersand,
+    '\x1b*': Keys.MetaAsterisk,
+    '\x1b(': Keys.MetaLeftParenthesis,
+    '\x1b)': Keys.MetaRightParenthesis,
+    '\x1b_': Keys.MetaUnderscore,
+    '\x1b+': Keys.MetaPlus,
+    # Same as last group, but the achieved the long way:
+    '\x1b!': Keys.MetaShift1,
+    '\x1b@': Keys.MetaShift2,
+    '\x1b#': Keys.MetaShift3,
+    '\x1b$': Keys.MetaShift4,
+    '\x1b%': Keys.MetaShift5,
+    '\x1b^': Keys.MetaShift6,
+    '\x1b&': Keys.MetaShift7,
+    '\x1b*': Keys.MetaShift8,
+    '\x1b(': Keys.MetaShift9,
+    '\x1b)': Keys.MetaShift0,
+    '\x1b_': Keys.MetaShiftMinus,
+    '\x1b+': Keys.MetaShiftEquals,
+
     '\x1b': Keys.Escape,            # Also Control-[
     '\x1c': Keys.ControlBackslash,  # Both Control-\ (also Ctrl-| )
     '\x1d': Keys.ControlSquareClose,  # Control-]
@@ -146,6 +185,21 @@ ANSI_SEQUENCES = {
     '\x1b[21;2~': Keys.F22,
     '\x1b[23;2~': Keys.F23,
     '\x1b[24;2~': Keys.F24,
+
+    '\x1b[1;5P': Keys.ControlF1,
+    '\x1b[1;5Q': Keys.ControlF2,
+    '\x1b[1;5R': Keys.ControlF3,
+    '\x1b[1;5S': Keys.ControlF4,
+    '\x1b[15;5~': Keys.ControlF5,
+    '\x1b[17;5~': Keys.ControlF6,
+    '\x1b[18;5~': Keys.ControlF7,
+    '\x1b[19;5~': Keys.ControlF8,
+    '\x1b[20;5~': Keys.ControlF9,
+    '\x1b[21;5~': Keys.ControlF10,
+    '\x1b[23;5~': Keys.ControlF11,
+    '\x1b[24;5~': Keys.ControlF12,
+
+    # Alt+Fkey combinations are mapped by desktop windower.
 
     '\x1b[1;5A': Keys.ControlUp,     # Cursor Mode
     '\x1b[1;5B': Keys.ControlDown,   # Cursor Mode
