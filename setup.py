@@ -19,11 +19,12 @@ def get_version(package):
 
 
 setup(
-    name='prompt_toolkit',
-    author='Jonathan Slenders',
+    name='prompt_toolkit-dob',
+    author='HotOffThe Hamster',
+    author_email='hotoffthehamster+pythonprompttoolkit@gmail.com',
     version=get_version('prompt_toolkit'),
     license='BSD-3-Clause',
-    url='https://github.com/jonathanslenders/python-prompt-toolkit',
+    url="https://github.com/hotoffthehamster/python-prompt-toolkit",
     description='Library for building powerful interactive command lines in Python',
     long_description=long_description,
     packages=find_packages('.'),
